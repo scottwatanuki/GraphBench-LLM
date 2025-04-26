@@ -1,0 +1,4864 @@
+graph_id,prompt,true_max_degree,true_connected,true_bipartite,true_hamiltonian_cycle,true_clique_size,llm_max_degree,llm_connected,llm_bipartite,llm_hamiltonian_cycle,llm_clique_size
+0,"You are given an undirected graph with 14 vertices labeled 0 through 13.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (3, 4)
+ (3, 1)
+ (3, 7)
+ (4, 6)
+ (4, 12)
+ (3, 10)
+ (5, 7)
+ (5, 13)
+ (12, 13)
+ (3, 13)
+ (11, 2)
+ (8, 9)
+ (10, 6)
+ (0, 5)
+ (8, 6)
+ (8, 12)
+ (13, 2)
+ (0, 8)
+ (10, 12)
+ (1, 9)
+ (0, 11)
+ (4, 2)
+ (12, 9)
+ (4, 5)
+ (12, 6)
+ (3, 9)
+ (5, 6)
+ (4, 8)
+ (3, 6)
+ (3, 12)
+ (5, 9)
+ (4, 11)
+ (8, 2)
+ (8, 11)
+ (10, 2)
+ (11, 1)
+ (11, 7)
+ (10, 11)
+ (0, 4)
+ (0, 10)
+ (13, 1)
+ (13, 7)
+ (1, 2)
+ (0, 13)
+ (2, 7)
+ (7, 9)
+ (7, 6)
+ (12, 2)
+ (4, 1)
+ (4, 7)
+ (3, 5)
+ (3, 11)
+ (4, 10)
+ (5, 11)
+ (4, 13)
+ (5, 8)
+ (8, 1)
+ (8, 7)
+ (9, 6)
+ (0, 3)
+ (8, 10)
+ (10, 7)
+ (10, 13)
+ (11, 6)
+ (0, 12)
+ (8, 13)
+ (11, 9)
+ (11, 12)
+ (13, 9)
+ (13, 6)
+ (1, 7)
+ (2, 6)
+ (2, 9)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",12,TRUE,FALSE,TRUE,7,13,TRUE,FALSE,TRUE,6
+1,"You are given an undirected graph with 14 vertices labeled 0 through 13.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (4, 9)
+ (3, 13)
+ (5, 10)
+ (8, 9)
+ (0, 5)
+ (2, 11)
+ (6, 11)
+ (3, 6)
+ (5, 12)
+ (9, 10)
+ (11, 7)
+ (2, 4)
+ (1, 8)
+ (6, 13)
+ (3, 8)
+ (9, 12)
+ (0, 9)
+ (1, 10)
+ (12, 13)
+ (5, 7)
+ (0, 2)
+ (1, 3)
+ (1, 12)
+ (3, 12)
+ (5, 9)
+ (4, 11)
+ (9, 7)
+ (1, 5)
+ (13, 7)
+ (2, 13)
+ (3, 5)
+ (4, 13)
+ (1, 7)
+ (2, 6)
+ (3, 7)
+ (4, 6)
+ (5, 13)
+ (10, 12)
+ (1, 9)
+ (0, 11)
+ (2, 8)
+ (6, 8)
+ (3, 9)
+ (4, 8)
+ (1, 2)
+ (0, 4)
+ (1, 11)
+ (0, 13)
+ (2, 10)
+ (11, 13)
+ (6, 10)
+ (3, 11)
+ (4, 10)
+ (10, 7)
+ (0, 6)
+ (1, 13)
+ (2, 12)
+ (12, 7)
+ (3, 4)
+ (4, 12)
+ (8, 12)
+ (1, 6)
+ (0, 8)
+ (9, 11)
+ (4, 5)
+ (0, 1)
+ (10, 11)
+ (9, 13)
+ (0, 10)
+ (2, 7)
+ (4, 7)
+ (5, 8)
+ (8, 7)
+ (0, 3)
+ (10, 13)
+ (0, 12)
+ (2, 9)
+ (11, 12)
+ (6, 9)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",13,TRUE,FALSE,TRUE,8,13,TRUE,FALSE,TRUE,5
+2,"You are given an undirected graph with 13 vertices labeled 0 through 12.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (12, 4)
+ (7, 4)
+ (6, 2)
+ (1, 2)
+ (12, 7)
+ (1, 5)
+ (10, 4)
+ (0, 9)
+ (0, 6)
+ (0, 12)
+ (6, 7)
+ (8, 3)
+ (1, 7)
+ (1, 10)
+ (5, 3)
+ (12, 5)
+ (0, 8)
+ (0, 11)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",5,TRUE,FALSE,FALSE,3,4,FALSE,TRUE,FALSE,2
+3,"You are given an undirected graph with 12 vertices labeled 0 through 11.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (3, 4)
+ (4, 9)
+ (3, 7)
+ (4, 6)
+ (9, 2)
+ (5, 10)
+ (11, 2)
+ (10, 6)
+ (0, 5)
+ (1, 6)
+ (0, 8)
+ (9, 11)
+ (1, 3)
+ (1, 9)
+ (0, 11)
+ (4, 2)
+ (4, 5)
+ (3, 9)
+ (5, 6)
+ (4, 8)
+ (3, 6)
+ (5, 9)
+ (4, 11)
+ (8, 2)
+ (8, 11)
+ (10, 2)
+ (0, 1)
+ (0, 7)
+ (9, 10)
+ (1, 2)
+ (0, 4)
+ (0, 10)
+ (10, 11)
+ (1, 5)
+ (1, 11)
+ (1, 8)
+ (7, 9)
+ (7, 6)
+ (3, 2)
+ (4, 7)
+ (3, 5)
+ (3, 11)
+ (5, 2)
+ (4, 10)
+ (3, 8)
+ (5, 8)
+ (9, 6)
+ (0, 3)
+ (0, 9)
+ (8, 10)
+ (1, 4)
+ (11, 6)
+ (1, 7)
+ (2, 6)
+ (1, 10)
+ (7, 2)
+ (7, 11)
+ (7, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",11,TRUE,FALSE,TRUE,8,11,TRUE,FALSE,TRUE,4
+4,"You are given an undirected graph with 19 vertices labeled 0 through 18.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (6, 18)
+ (7, 17)
+ (4, 9)
+ (3, 13)
+ (5, 10)
+ (8, 9)
+ (0, 5)
+ (8, 18)
+ (9, 17)
+ (0, 14)
+ (2, 11)
+ (11, 14)
+ (1, 15)
+ (13, 17)
+ (6, 11)
+ (7, 10)
+ (3, 6)
+ (12, 18)
+ (3, 15)
+ (5, 12)
+ (8, 11)
+ (14, 15)
+ (9, 10)
+ (0, 7)
+ (2, 4)
+ (0, 16)
+ (11, 16)
+ (1, 8)
+ (1, 17)
+ (6, 13)
+ (16, 15)
+ (7, 12)
+ (3, 8)
+ (3, 17)
+ (5, 14)
+ (14, 17)
+ (9, 12)
+ (0, 9)
+ (1, 10)
+ (16, 17)
+ (7, 14)
+ (12, 13)
+ (3, 10)
+ (5, 7)
+ (0, 2)
+ (5, 16)
+ (4, 18)
+ (9, 14)
+ (1, 3)
+ (10, 15)
+ (1, 12)
+ (13, 14)
+ (7, 16)
+ (12, 15)
+ (3, 12)
+ (5, 9)
+ (5, 18)
+ (9, 16)
+ (1, 5)
+ (10, 17)
+ (1, 14)
+ (13, 16)
+ (2, 13)
+ (7, 9)
+ (3, 5)
+ (12, 17)
+ (3, 14)
+ (5, 11)
+ (4, 13)
+ (8, 13)
+ (1, 7)
+ (2, 6)
+ (1, 16)
+ (0, 18)
+ (2, 15)
+ (11, 18)
+ (7, 11)
+ (6, 15)
+ (3, 7)
+ (4, 6)
+ (3, 16)
+ (5, 13)
+ (4, 15)
+ (14, 16)
+ (17, 18)
+ (8, 15)
+ (10, 12)
+ (1, 9)
+ (0, 11)
+ (2, 8)
+ (1, 18)
+ (2, 17)
+ (6, 8)
+ (6, 17)
+ (3, 9)
+ (5, 6)
+ (4, 8)
+ (3, 18)
+ (4, 17)
+ (1, 2)
+ (0, 4)
+ (8, 17)
+ (10, 14)
+ (1, 11)
+ (0, 13)
+ (2, 10)
+ (11, 13)
+ (6, 10)
+ (7, 18)
+ (3, 11)
+ (4, 10)
+ (8, 10)
+ (1, 4)
+ (0, 6)
+ (2, 3)
+ (10, 16)
+ (1, 13)
+ (9, 18)
+ (2, 12)
+ (11, 15)
+ (6, 12)
+ (3, 4)
+ (12, 16)
+ (4, 12)
+ (8, 12)
+ (1, 6)
+ (0, 8)
+ (2, 5)
+ (9, 11)
+ (10, 18)
+ (0, 17)
+ (2, 14)
+ (11, 17)
+ (6, 14)
+ (7, 13)
+ (4, 5)
+ (0, 1)
+ (5, 15)
+ (8, 14)
+ (10, 11)
+ (9, 13)
+ (0, 10)
+ (2, 7)
+ (2, 16)
+ (6, 7)
+ (6, 16)
+ (16, 18)
+ (7, 15)
+ (18, 15)
+ (4, 7)
+ (4, 16)
+ (5, 8)
+ (0, 3)
+ (5, 17)
+ (8, 16)
+ (10, 13)
+ (9, 15)
+ (0, 12)
+ (2, 9)
+ (11, 12)
+ (2, 18)
+ (13, 15)
+ (6, 9)
+ (7, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",18,TRUE,FALSE,TRUE,15,18,TRUE,FALSE,TRUE,6
+5,"You are given an undirected graph with 15 vertices labeled 0 through 14.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (6, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",1,FALSE,TRUE,FALSE,2,1,FALSE,TRUE,FALSE,2
+6,"You are given an undirected graph with 16 vertices labeled 0 through 15.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (3, 13)
+ (5, 10)
+ (8, 9)
+ (0, 5)
+ (0, 14)
+ (2, 11)
+ (11, 14)
+ (1, 15)
+ (6, 11)
+ (3, 6)
+ (3, 15)
+ (5, 12)
+ (8, 11)
+ (14, 15)
+ (9, 10)
+ (0, 7)
+ (2, 4)
+ (1, 8)
+ (6, 13)
+ (7, 12)
+ (3, 8)
+ (9, 12)
+ (0, 9)
+ (1, 10)
+ (7, 14)
+ (12, 13)
+ (3, 10)
+ (5, 7)
+ (0, 2)
+ (9, 14)
+ (1, 3)
+ (10, 15)
+ (1, 12)
+ (13, 14)
+ (12, 15)
+ (3, 12)
+ (5, 9)
+ (4, 11)
+ (1, 5)
+ (1, 14)
+ (2, 13)
+ (3, 5)
+ (3, 14)
+ (4, 13)
+ (8, 13)
+ (1, 7)
+ (2, 6)
+ (2, 15)
+ (7, 11)
+ (6, 15)
+ (3, 7)
+ (4, 6)
+ (5, 13)
+ (8, 15)
+ (10, 12)
+ (1, 9)
+ (0, 11)
+ (2, 8)
+ (6, 8)
+ (3, 9)
+ (5, 6)
+ (4, 8)
+ (1, 2)
+ (0, 4)
+ (10, 14)
+ (1, 11)
+ (0, 13)
+ (11, 13)
+ (6, 10)
+ (12, 14)
+ (3, 11)
+ (4, 10)
+ (8, 10)
+ (1, 4)
+ (0, 6)
+ (2, 3)
+ (1, 13)
+ (0, 15)
+ (2, 12)
+ (6, 12)
+ (3, 4)
+ (4, 12)
+ (8, 12)
+ (1, 6)
+ (0, 8)
+ (2, 5)
+ (9, 11)
+ (2, 14)
+ (6, 14)
+ (7, 13)
+ (4, 5)
+ (4, 14)
+ (0, 1)
+ (5, 15)
+ (8, 14)
+ (10, 11)
+ (9, 13)
+ (0, 10)
+ (2, 7)
+ (6, 7)
+ (7, 15)
+ (4, 7)
+ (5, 8)
+ (0, 3)
+ (10, 13)
+ (9, 15)
+ (0, 12)
+ (2, 9)
+ (11, 12)
+ (13, 15)
+ (6, 9)
+ (7, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",15,TRUE,FALSE,TRUE,12,15,TRUE,FALSE,TRUE,6
+7,"You are given an undirected graph with 11 vertices labeled 0 through 10.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (4, 3)
+ (4, 9)
+ (4, 6)
+ (0, 2)
+ (5, 10)
+ (8, 9)
+ (0, 5)
+ (8, 6)
+ (10, 3)
+ (0, 8)
+ (2, 5)
+ (1, 9)
+ (2, 8)
+ (4, 5)
+ (4, 8)
+ (3, 6)
+ (0, 1)
+ (0, 7)
+ (2, 4)
+ (9, 10)
+ (0, 4)
+ (0, 10)
+ (1, 8)
+ (7, 3)
+ (7, 9)
+ (7, 6)
+ (4, 7)
+ (9, 6)
+ (0, 9)
+ (2, 3)
+ (2, 9)
+ (1, 7)
+ (2, 6)
+ (1, 10)
+ (7, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",8,TRUE,FALSE,TRUE,5,7,TRUE,FALSE,TRUE,4
+8,"You are given an undirected graph with 14 vertices labeled 0 through 13.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (4, 9)
+ (5, 1)
+ (3, 13)
+ (5, 10)
+ (8, 9)
+ (0, 5)
+ (2, 11)
+ (7, 1)
+ (7, 10)
+ (3, 6)
+ (9, 1)
+ (5, 12)
+ (8, 11)
+ (9, 10)
+ (0, 7)
+ (2, 4)
+ (13, 1)
+ (7, 12)
+ (3, 8)
+ (9, 12)
+ (0, 9)
+ (3, 1)
+ (12, 13)
+ (3, 10)
+ (5, 7)
+ (0, 2)
+ (12, 6)
+ (3, 12)
+ (5, 9)
+ (4, 11)
+ (2, 13)
+ (7, 9)
+ (3, 5)
+ (5, 11)
+ (4, 13)
+ (10, 1)
+ (8, 13)
+ (2, 6)
+ (7, 11)
+ (12, 1)
+ (3, 7)
+ (4, 6)
+ (8, 6)
+ (10, 12)
+ (0, 11)
+ (2, 8)
+ (3, 9)
+ (5, 6)
+ (4, 8)
+ (0, 4)
+ (0, 13)
+ (2, 10)
+ (11, 13)
+ (4, 1)
+ (3, 11)
+ (4, 10)
+ (8, 1)
+ (11, 6)
+ (2, 3)
+ (2, 12)
+ (3, 4)
+ (4, 12)
+ (8, 12)
+ (9, 11)
+ (0, 8)
+ (2, 5)
+ (1, 6)
+ (7, 13)
+ (4, 5)
+ (11, 1)
+ (10, 11)
+ (9, 13)
+ (0, 10)
+ (2, 7)
+ (7, 6)
+ (4, 7)
+ (5, 8)
+ (0, 3)
+ (10, 13)
+ (0, 12)
+ (2, 9)
+ (11, 12)
+ (13, 6)
+ (7, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",13,TRUE,FALSE,TRUE,10,11,TRUE,FALSE,TRUE,5
+9,"You are given an undirected graph with 12 vertices labeled 0 through 11.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (9, 10)
+ (0, 7)
+ (3, 8)
+ (4, 10)
+ (0, 4)
+ (11, 10)
+ (1, 11)
+ (0, 3)
+ (0, 9)
+ (9, 2)
+ (0, 6)
+ (6, 7)
+ (11, 2)
+ (0, 5)
+ (9, 1)
+ (6, 9)
+ (4, 7)
+ (3, 5)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",6,TRUE,FALSE,FALSE,3,5,TRUE,FALSE,TRUE,2
+10,"You are given an undirected graph with 11 vertices labeled 0 through 10.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (4, 5)
+ (5, 6)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",2,FALSE,TRUE,FALSE,2,1,FALSE,TRUE,FALSE,2
+11,"You are given an undirected graph with 10 vertices labeled 0 through 9.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (3, 4)
+ (3, 7)
+ (5, 4)
+ (9, 5)
+ (0, 2)
+ (8, 9)
+ (8, 6)
+ (1, 6)
+ (0, 8)
+ (2, 5)
+ (2, 8)
+ (7, 1)
+ (5, 6)
+ (3, 6)
+ (9, 1)
+ (8, 5)
+ (0, 7)
+ (2, 4)
+ (2, 1)
+ (1, 5)
+ (7, 9)
+ (7, 6)
+ (3, 5)
+ (3, 8)
+ (8, 1)
+ (9, 6)
+ (0, 3)
+ (0, 9)
+ (2, 9)
+ (2, 6)
+ (7, 5)
+ (7, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",8,TRUE,FALSE,TRUE,6,7,TRUE,FALSE,TRUE,4
+12,"You are given an undirected graph with 5 vertices labeled 0 through 4.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (2, 3)
+ (1, 4)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",1,FALSE,TRUE,FALSE,2,1,FALSE,TRUE,FALSE,2
+13,"You are given an undirected graph with 18 vertices labeled 0 through 17.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (7, 17)
+ (4, 9)
+ (3, 13)
+ (5, 10)
+ (8, 9)
+ (0, 5)
+ (0, 14)
+ (2, 11)
+ (11, 14)
+ (1, 15)
+ (13, 17)
+ (6, 11)
+ (7, 10)
+ (3, 6)
+ (3, 15)
+ (5, 12)
+ (8, 11)
+ (14, 15)
+ (9, 10)
+ (0, 7)
+ (2, 4)
+ (0, 16)
+ (11, 16)
+ (1, 17)
+ (15, 16)
+ (6, 13)
+ (7, 12)
+ (3, 8)
+ (3, 17)
+ (5, 14)
+ (14, 17)
+ (9, 12)
+ (0, 9)
+ (1, 10)
+ (16, 17)
+ (7, 14)
+ (12, 13)
+ (3, 10)
+ (5, 7)
+ (0, 2)
+ (5, 16)
+ (9, 14)
+ (1, 3)
+ (10, 15)
+ (1, 12)
+ (7, 16)
+ (12, 15)
+ (3, 12)
+ (5, 9)
+ (4, 11)
+ (9, 16)
+ (1, 5)
+ (10, 17)
+ (1, 14)
+ (13, 16)
+ (2, 13)
+ (7, 9)
+ (3, 5)
+ (12, 17)
+ (3, 14)
+ (5, 11)
+ (4, 13)
+ (8, 13)
+ (1, 7)
+ (2, 6)
+ (1, 16)
+ (2, 15)
+ (7, 11)
+ (6, 15)
+ (4, 6)
+ (3, 16)
+ (14, 16)
+ (8, 15)
+ (10, 12)
+ (1, 9)
+ (0, 11)
+ (2, 8)
+ (2, 17)
+ (6, 8)
+ (6, 17)
+ (3, 9)
+ (5, 6)
+ (4, 8)
+ (4, 17)
+ (1, 2)
+ (0, 4)
+ (8, 17)
+ (10, 14)
+ (1, 11)
+ (0, 13)
+ (2, 10)
+ (11, 13)
+ (6, 10)
+ (12, 14)
+ (3, 11)
+ (4, 10)
+ (8, 10)
+ (1, 4)
+ (0, 6)
+ (2, 3)
+ (10, 16)
+ (1, 13)
+ (0, 15)
+ (2, 12)
+ (6, 12)
+ (3, 4)
+ (4, 12)
+ (8, 12)
+ (1, 6)
+ (0, 8)
+ (2, 5)
+ (9, 11)
+ (0, 17)
+ (2, 14)
+ (11, 17)
+ (15, 17)
+ (6, 14)
+ (7, 13)
+ (4, 5)
+ (4, 14)
+ (0, 1)
+ (5, 15)
+ (10, 11)
+ (9, 13)
+ (0, 10)
+ (2, 7)
+ (6, 7)
+ (6, 16)
+ (7, 15)
+ (4, 7)
+ (4, 16)
+ (5, 8)
+ (0, 3)
+ (5, 17)
+ (8, 16)
+ (10, 13)
+ (9, 15)
+ (0, 12)
+ (2, 9)
+ (11, 12)
+ (6, 9)
+ (7, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",17,TRUE,FALSE,TRUE,12,17,TRUE,FALSE,TRUE,6
+14,"You are given an undirected graph with 6 vertices labeled 0 through 5.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (0, 1)
+ (2, 4)
+ (1, 2)
+ (0, 4)
+ (3, 4)
+ (0, 3)
+ (1, 4)
+ (2, 3)
+ (0, 2)
+ (4, 5)
+ (0, 5)
+ (2, 5)
+ (1, 3)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",5,TRUE,FALSE,TRUE,5,5,TRUE,FALSE,TRUE,4
+15,"You are given an undirected graph with 17 vertices labeled 0 through 16.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (3, 4)
+ (4, 9)
+ (3, 7)
+ (9, 2)
+ (5, 7)
+ (5, 10)
+ (8, 9)
+ (11, 2)
+ (0, 5)
+ (8, 12)
+ (13, 2)
+ (1, 6)
+ (0, 8)
+ (8, 15)
+ (1, 3)
+ (1, 9)
+ (9, 14)
+ (11, 14)
+ (10, 15)
+ (6, 2)
+ (6, 11)
+ (4, 5)
+ (5, 6)
+ (4, 8)
+ (4, 14)
+ (3, 12)
+ (12, 15)
+ (4, 11)
+ (8, 11)
+ (0, 1)
+ (9, 10)
+ (8, 14)
+ (0, 4)
+ (13, 7)
+ (1, 11)
+ (0, 13)
+ (10, 14)
+ (13, 16)
+ (7, 12)
+ (6, 10)
+ (6, 16)
+ (12, 14)
+ (3, 11)
+ (3, 14)
+ (5, 11)
+ (4, 13)
+ (5, 8)
+ (8, 7)
+ (0, 3)
+ (8, 10)
+ (8, 16)
+ (1, 4)
+ (9, 12)
+ (8, 13)
+ (10, 7)
+ (13, 9)
+ (1, 13)
+ (10, 16)
+ (11, 15)
+ (1, 10)
+ (1, 16)
+ (13, 12)
+ (16, 2)
+ (16, 14)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",12,TRUE,FALSE,TRUE,4,8,TRUE,FALSE,TRUE,4
+16,"You are given an undirected graph with 11 vertices labeled 0 through 10.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (3, 7)
+ (1, 8)
+ (4, 6)
+ (3, 10)
+ (3, 9)
+ (5, 9)
+ (8, 5)
+ (3, 5)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",4,FALSE,FALSE,FALSE,3,4,FALSE,TRUE,FALSE,2
+17,"You are given an undirected graph with 9 vertices labeled 0 through 8.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (3, 4)
+ (3, 7)
+ (4, 6)
+ (0, 2)
+ (0, 8)
+ (1, 3)
+ (6, 8)
+ (4, 5)
+ (4, 8)
+ (8, 5)
+ (0, 1)
+ (0, 7)
+ (2, 4)
+ (0, 4)
+ (1, 8)
+ (4, 7)
+ (3, 5)
+ (3, 8)
+ (0, 3)
+ (1, 4)
+ (0, 6)
+ (1, 7)
+ (7, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",8,TRUE,FALSE,TRUE,6,6,TRUE,FALSE,TRUE,3
+18,"You are given an undirected graph with 17 vertices labeled 0 through 16.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (3, 10)
+ (0, 2)
+ (9, 11)
+ (8, 15)
+ (13, 14)
+ (16, 10)
+ (9, 4)
+ (13, 4)
+ (9, 13)
+ (2, 1)
+ (1, 8)
+ (16, 12)
+ (15, 10)
+ (6, 13)
+ (14, 5)
+ (3, 14)
+ (0, 9)
+ (0, 6)
+ (1, 13)
+ (2, 6)
+ (13, 12)
+ (1, 16)
+ (2, 15)
+ (16, 14)
+ (15, 12)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",6,FALSE,FALSE,FALSE,3,4,FALSE,TRUE,FALSE,2
+19,"You are given an undirected graph with 16 vertices labeled 0 through 15.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (12, 11)
+ (1, 8)
+ (1, 9)
+ (2, 12)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",2,FALSE,TRUE,FALSE,2,1,FALSE,TRUE,FALSE,2
+20,"You are given an undirected graph with 18 vertices labeled 0 through 17.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (4, 12)
+ (17, 3)
+ (4, 15)
+ (9, 8)
+ (11, 5)
+ (17, 15)
+ (13, 2)
+ (1, 6)
+ (0, 14)
+ (11, 14)
+ (1, 9)
+ (0, 11)
+ (0, 17)
+ (13, 5)
+ (13, 14)
+ (13, 17)
+ (15, 8)
+ (12, 9)
+ (16, 8)
+ (14, 3)
+ (17, 2)
+ (5, 3)
+ (4, 17)
+ (0, 1)
+ (11, 7)
+ (5, 15)
+ (0, 4)
+ (1, 5)
+ (0, 13)
+ (11, 13)
+ (2, 16)
+ (7, 3)
+ (15, 10)
+ (6, 7)
+ (15, 16)
+ (7, 15)
+ (4, 7)
+ (12, 8)
+ (5, 2)
+ (14, 8)
+ (9, 3)
+ (5, 8)
+ (17, 16)
+ (0, 12)
+ (11, 12)
+ (1, 7)
+ (13, 6)
+ (7, 2)
+ (2, 15)
+ (6, 3)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",8,TRUE,FALSE,FALSE,4,6,TRUE,FALSE,FALSE,3
+21,"You are given an undirected graph with 9 vertices labeled 0 through 8.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (2, 4)
+ (8, 4)
+ (5, 8)
+ (1, 8)
+ (0, 6)
+ (0, 5)
+ (5, 3)
+ (1, 3)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",3,FALSE,TRUE,FALSE,2,3,FALSE,TRUE,FALSE,2
+22,"You are given an undirected graph with 3 vertices labeled 0 through 2.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ 
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",0,FALSE,TRUE,FALSE,1,0,FALSE,TRUE,FALSE,1
+23,"You are given an undirected graph with 20 vertices labeled 0 through 19.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (12, 10)
+ (12, 19)
+ (3, 10)
+ (9, 5)
+ (19, 18)
+ (11, 8)
+ (11, 14)
+ (1, 9)
+ (13, 14)
+ (6, 17)
+ (5, 6)
+ (14, 18)
+ (3, 15)
+ (0, 1)
+ (19, 14)
+ (8, 14)
+ (13, 7)
+ (10, 14)
+ (13, 10)
+ (2, 13)
+ (6, 16)
+ (12, 11)
+ (12, 8)
+ (12, 14)
+ (4, 7)
+ (12, 17)
+ (5, 11)
+ (4, 19)
+ (9, 6)
+ (10, 7)
+ (0, 12)
+ (10, 16)
+ (13, 6)
+ (16, 17)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",7,TRUE,FALSE,FALSE,4,6,FALSE,TRUE,FALSE,2
+24,"You are given an undirected graph with 4 vertices labeled 0 through 3.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ 
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",0,FALSE,TRUE,FALSE,1,0,FALSE,TRUE,FALSE,1
+25,"You are given an undirected graph with 7 vertices labeled 0 through 6.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (3, 4)
+ (4, 6)
+ (0, 2)
+ (1, 6)
+ (2, 5)
+ (1, 3)
+ (6, 5)
+ (4, 5)
+ (3, 6)
+ (0, 1)
+ (2, 4)
+ (1, 2)
+ (0, 4)
+ (3, 5)
+ (0, 3)
+ (1, 4)
+ (0, 6)
+ (2, 3)
+ (2, 6)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",6,TRUE,FALSE,TRUE,6,6,TRUE,FALSE,TRUE,4
+26,"You are given an undirected graph with 2 vertices labeled 0 through 1.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (0, 1)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",1,TRUE,TRUE,FALSE,2,1,TRUE,TRUE,FALSE,2
+27,"You are given an undirected graph with 20 vertices labeled 0 through 19.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (6, 18)
+ (7, 17)
+ (4, 9)
+ (3, 13)
+ (14, 13)
+ (5, 19)
+ (8, 18)
+ (0, 14)
+ (6, 2)
+ (6, 11)
+ (16, 13)
+ (7, 10)
+ (4, 2)
+ (7, 19)
+ (8, 2)
+ (12, 18)
+ (3, 15)
+ (14, 15)
+ (5, 12)
+ (0, 16)
+ (1, 17)
+ (13, 19)
+ (6, 13)
+ (3, 8)
+ (3, 17)
+ (11, 9)
+ (1, 10)
+ (16, 17)
+ (3, 10)
+ (5, 7)
+ (3, 19)
+ (14, 19)
+ (4, 18)
+ (11, 2)
+ (1, 3)
+ (1, 12)
+ (16, 10)
+ (16, 19)
+ (17, 2)
+ (12, 15)
+ (14, 12)
+ (4, 11)
+ (1, 5)
+ (1, 14)
+ (3, 5)
+ (14, 5)
+ (12, 17)
+ (5, 11)
+ (4, 13)
+ (1, 7)
+ (16, 5)
+ (7, 2)
+ (1, 16)
+ (7, 11)
+ (6, 15)
+ (3, 7)
+ (14, 7)
+ (4, 6)
+ (5, 13)
+ (16, 7)
+ (14, 9)
+ (4, 17)
+ (0, 4)
+ (8, 17)
+ (1, 11)
+ (11, 13)
+ (16, 9)
+ (14, 2)
+ (6, 19)
+ (7, 18)
+ (3, 11)
+ (14, 11)
+ (4, 10)
+ (4, 19)
+ (17, 13)
+ (9, 18)
+ (11, 15)
+ (6, 12)
+ (3, 4)
+ (10, 9)
+ (1, 6)
+ (0, 8)
+ (11, 17)
+ (10, 2)
+ (0, 1)
+ (11, 19)
+ (12, 2)
+ (15, 19)
+ (16, 18)
+ (4, 7)
+ (4, 16)
+ (0, 3)
+ (5, 17)
+ (8, 16)
+ (10, 13)
+ (17, 19)
+ (9, 15)
+ (2, 9)
+ (2, 18)
+ (13, 15)
+ (6, 9)
+ (16, 11)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",14,TRUE,FALSE,TRUE,6,10,TRUE,FALSE,TRUE,4
+28,"You are given an undirected graph with 6 vertices labeled 0 through 5.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (3, 5)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",1,FALSE,TRUE,FALSE,2,1,FALSE,TRUE,FALSE,2
+29,"You are given an undirected graph with 9 vertices labeled 0 through 8.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (4, 6)
+ (0, 5)
+ (1, 6)
+ (0, 8)
+ (6, 2)
+ (6, 8)
+ (4, 2)
+ (4, 5)
+ (4, 8)
+ (5, 3)
+ (8, 2)
+ (0, 1)
+ (1, 2)
+ (0, 4)
+ (1, 8)
+ (5, 2)
+ (5, 8)
+ (8, 7)
+ (0, 6)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",7,TRUE,FALSE,FALSE,4,6,TRUE,FALSE,TRUE,4
+30,"You are given an undirected graph with 17 vertices labeled 0 through 16.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (4, 9)
+ (3, 13)
+ (5, 10)
+ (8, 9)
+ (0, 5)
+ (0, 14)
+ (2, 11)
+ (11, 14)
+ (1, 15)
+ (6, 11)
+ (7, 10)
+ (3, 6)
+ (3, 15)
+ (5, 12)
+ (8, 11)
+ (14, 15)
+ (9, 10)
+ (0, 7)
+ (2, 4)
+ (0, 16)
+ (11, 16)
+ (1, 8)
+ (15, 16)
+ (6, 13)
+ (7, 12)
+ (3, 8)
+ (5, 14)
+ (9, 12)
+ (0, 9)
+ (1, 10)
+ (7, 14)
+ (12, 13)
+ (3, 10)
+ (5, 7)
+ (0, 2)
+ (5, 16)
+ (9, 14)
+ (1, 3)
+ (10, 15)
+ (1, 12)
+ (13, 14)
+ (12, 15)
+ (3, 12)
+ (5, 9)
+ (4, 11)
+ (9, 16)
+ (1, 5)
+ (1, 14)
+ (13, 16)
+ (2, 13)
+ (7, 9)
+ (3, 5)
+ (3, 14)
+ (5, 11)
+ (4, 13)
+ (8, 13)
+ (1, 7)
+ (2, 6)
+ (1, 16)
+ (2, 15)
+ (7, 11)
+ (6, 15)
+ (3, 7)
+ (4, 6)
+ (3, 16)
+ (5, 13)
+ (4, 15)
+ (14, 16)
+ (8, 15)
+ (10, 12)
+ (1, 9)
+ (0, 11)
+ (6, 8)
+ (3, 9)
+ (5, 6)
+ (4, 8)
+ (1, 2)
+ (0, 4)
+ (10, 14)
+ (1, 11)
+ (0, 13)
+ (2, 10)
+ (11, 13)
+ (6, 10)
+ (12, 14)
+ (3, 11)
+ (4, 10)
+ (8, 10)
+ (1, 4)
+ (0, 6)
+ (2, 3)
+ (10, 16)
+ (1, 13)
+ (0, 15)
+ (2, 12)
+ (11, 15)
+ (6, 12)
+ (3, 4)
+ (12, 16)
+ (4, 12)
+ (8, 12)
+ (1, 6)
+ (0, 8)
+ (2, 5)
+ (9, 11)
+ (2, 14)
+ (7, 13)
+ (4, 5)
+ (4, 14)
+ (0, 1)
+ (5, 15)
+ (8, 14)
+ (10, 11)
+ (9, 13)
+ (0, 10)
+ (2, 7)
+ (2, 16)
+ (6, 7)
+ (6, 16)
+ (7, 15)
+ (4, 7)
+ (4, 16)
+ (5, 8)
+ (0, 3)
+ (8, 16)
+ (10, 13)
+ (9, 15)
+ (0, 12)
+ (2, 9)
+ (11, 12)
+ (13, 15)
+ (6, 9)
+ (7, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",16,TRUE,FALSE,TRUE,14,16,TRUE,FALSE,TRUE,6
+31,"You are given an undirected graph with 9 vertices labeled 0 through 8.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (0, 7)
+ (0, 4)
+ (7, 1)
+ (8, 1)
+ (1, 5)
+ (4, 6)
+ (7, 3)
+ (2, 3)
+ (4, 5)
+ (8, 3)
+ (7, 2)
+ (5, 3)
+ (0, 8)
+ (5, 2)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",4,TRUE,FALSE,FALSE,3,5,TRUE,FALSE,TRUE,3
+32,"You are given an undirected graph with 6 vertices labeled 0 through 5.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (0, 5)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",1,FALSE,TRUE,FALSE,2,1,FALSE,TRUE,FALSE,2
+33,"You are given an undirected graph with 3 vertices labeled 0 through 2.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (0, 2)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",1,FALSE,TRUE,FALSE,2,1,FALSE,TRUE,FALSE,2
+34,"You are given an undirected graph with 11 vertices labeled 0 through 10.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (3, 7)
+ (5, 4)
+ (3, 10)
+ (5, 7)
+ (0, 2)
+ (8, 9)
+ (0, 5)
+ (0, 8)
+ (2, 5)
+ (1, 3)
+ (1, 9)
+ (2, 8)
+ (6, 8)
+ (3, 9)
+ (3, 6)
+ (9, 4)
+ (0, 1)
+ (0, 7)
+ (9, 10)
+ (1, 2)
+ (0, 10)
+ (2, 7)
+ (1, 5)
+ (2, 10)
+ (1, 8)
+ (6, 4)
+ (7, 9)
+ (6, 7)
+ (6, 10)
+ (3, 5)
+ (3, 8)
+ (5, 8)
+ (0, 3)
+ (0, 9)
+ (8, 10)
+ (0, 6)
+ (2, 3)
+ (1, 7)
+ (1, 10)
+ (7, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",9,TRUE,FALSE,TRUE,7,8,TRUE,FALSE,TRUE,4
+35,"You are given an undirected graph with 11 vertices labeled 0 through 10.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (4, 9)
+ (3, 7)
+ (5, 7)
+ (0, 2)
+ (8, 9)
+ (0, 5)
+ (10, 9)
+ (2, 5)
+ (1, 3)
+ (2, 8)
+ (7, 10)
+ (6, 8)
+ (4, 5)
+ (5, 6)
+ (0, 1)
+ (0, 7)
+ (0, 4)
+ (10, 8)
+ (1, 5)
+ (2, 10)
+ (6, 7)
+ (6, 10)
+ (4, 7)
+ (4, 10)
+ (0, 3)
+ (0, 6)
+ (2, 3)
+ (2, 9)
+ (2, 6)
+ (1, 10)
+ (6, 9)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",7,TRUE,FALSE,TRUE,5,7,TRUE,FALSE,TRUE,4
+36,"You are given an undirected graph with 20 vertices labeled 0 through 19.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (12, 4)
+ (6, 18)
+ (17, 3)
+ (8, 9)
+ (0, 5)
+ (5, 19)
+ (8, 18)
+ (0, 14)
+ (18, 19)
+ (12, 18)
+ (5, 12)
+ (0, 16)
+ (1, 8)
+ (15, 7)
+ (6, 4)
+ (13, 19)
+ (14, 17)
+ (11, 9)
+ (1, 10)
+ (1, 19)
+ (5, 7)
+ (0, 2)
+ (5, 16)
+ (14, 19)
+ (1, 3)
+ (10, 15)
+ (1, 12)
+ (13, 14)
+ (15, 11)
+ (18, 7)
+ (5, 9)
+ (17, 11)
+ (11, 4)
+ (5, 18)
+ (1, 5)
+ (10, 17)
+ (18, 9)
+ (7, 9)
+ (12, 17)
+ (8, 13)
+ (13, 9)
+ (10, 19)
+ (0, 18)
+ (2, 15)
+ (6, 15)
+ (5, 13)
+ (8, 15)
+ (16, 7)
+ (18, 4)
+ (1, 18)
+ (2, 17)
+ (14, 18)
+ (8, 17)
+ (1, 11)
+ (0, 13)
+ (2, 10)
+ (16, 9)
+ (14, 11)
+ (3, 11)
+ (10, 7)
+ (0, 6)
+ (2, 3)
+ (8, 19)
+ (0, 15)
+ (2, 12)
+ (6, 3)
+ (12, 7)
+ (3, 4)
+ (12, 16)
+ (8, 3)
+ (10, 9)
+ (0, 8)
+ (2, 5)
+ (10, 18)
+ (0, 17)
+ (2, 14)
+ (6, 14)
+ (12, 9)
+ (0, 1)
+ (10, 11)
+ (0, 10)
+ (2, 16)
+ (6, 7)
+ (15, 19)
+ (4, 7)
+ (5, 8)
+ (5, 17)
+ (8, 16)
+ (10, 13)
+ (0, 12)
+ (2, 18)
+ (6, 9)
+ (16, 11)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",13,TRUE,FALSE,TRUE,5,11,TRUE,FALSE,TRUE,4
+37,"You are given an undirected graph with 4 vertices labeled 0 through 3.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (0, 1)
+ (1, 2)
+ (0, 2)
+ (0, 3)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",3,TRUE,FALSE,FALSE,3,3,TRUE,FALSE,TRUE,3
+38,"You are given an undirected graph with 10 vertices labeled 0 through 9.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (0, 8)
+ (0, 3)
+ (0, 9)
+ (3, 5)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",3,FALSE,TRUE,FALSE,2,3,FALSE,TRUE,FALSE,2
+39,"You are given an undirected graph with 4 vertices labeled 0 through 3.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (1, 2)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",1,FALSE,TRUE,FALSE,2,1,FALSE,TRUE,FALSE,2
+40,"You are given an undirected graph with 13 vertices labeled 0 through 12.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (12, 4)
+ (12, 10)
+ (3, 7)
+ (5, 4)
+ (4, 6)
+ (5, 10)
+ (9, 8)
+ (0, 5)
+ (1, 6)
+ (9, 11)
+ (0, 11)
+ (2, 8)
+ (7, 10)
+ (12, 6)
+ (3, 9)
+ (5, 6)
+ (4, 8)
+ (3, 6)
+ (3, 12)
+ (9, 7)
+ (5, 12)
+ (11, 4)
+ (0, 1)
+ (2, 4)
+ (1, 2)
+ (2, 7)
+ (1, 5)
+ (6, 10)
+ (3, 2)
+ (4, 7)
+ (5, 2)
+ (3, 11)
+ (4, 10)
+ (5, 8)
+ (9, 6)
+ (0, 3)
+ (0, 9)
+ (9, 12)
+ (1, 4)
+ (0, 12)
+ (11, 12)
+ (1, 7)
+ (2, 6)
+ (1, 10)
+ (7, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",9,TRUE,FALSE,TRUE,5,8,TRUE,FALSE,TRUE,4
+41,"You are given an undirected graph with 15 vertices labeled 0 through 14.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (6, 12)
+ (3, 4)
+ (3, 1)
+ (3, 7)
+ (4, 12)
+ (3, 10)
+ (5, 7)
+ (9, 5)
+ (11, 2)
+ (9, 8)
+ (9, 14)
+ (2, 5)
+ (0, 11)
+ (13, 8)
+ (1, 12)
+ (2, 14)
+ (6, 14)
+ (3, 9)
+ (4, 8)
+ (3, 12)
+ (9, 1)
+ (11, 4)
+ (5, 12)
+ (9, 10)
+ (11, 1)
+ (2, 4)
+ (1, 2)
+ (9, 13)
+ (13, 7)
+ (1, 5)
+ (0, 13)
+ (6, 1)
+ (2, 10)
+ (1, 14)
+ (6, 4)
+ (7, 12)
+ (6, 10)
+ (3, 5)
+ (3, 11)
+ (3, 14)
+ (0, 3)
+ (0, 9)
+ (9, 12)
+ (1, 4)
+ (0, 6)
+ (1, 7)
+ (13, 12)
+ (7, 14)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",10,TRUE,FALSE,TRUE,5,7,TRUE,FALSE,TRUE,4
+42,"You are given an undirected graph with 4 vertices labeled 0 through 3.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (1, 3)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",1,FALSE,TRUE,FALSE,2,1,FALSE,TRUE,FALSE,2
+43,"You are given an undirected graph with 20 vertices labeled 0 through 19.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (1, 18)
+ (0, 10)
+ (8, 17)
+ (9, 19)
+ (1, 8)
+ (4, 12)
+ (18, 2)
+ (12, 14)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",2,FALSE,TRUE,FALSE,2,2,FALSE,TRUE,FALSE,2
+44,"You are given an undirected graph with 5 vertices labeled 0 through 4.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ 
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",0,FALSE,TRUE,FALSE,1,0,FALSE,TRUE,FALSE,1
+45,"You are given an undirected graph with 17 vertices labeled 0 through 16.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (12, 10)
+ (12, 16)
+ (14, 13)
+ (0, 2)
+ (8, 3)
+ (0, 8)
+ (0, 11)
+ (7, 4)
+ (16, 10)
+ (6, 5)
+ (0, 1)
+ (8, 14)
+ (1, 2)
+ (2, 7)
+ (16, 3)
+ (2, 16)
+ (15, 10)
+ (7, 12)
+ (6, 16)
+ (8, 4)
+ (5, 14)
+ (0, 6)
+ (8, 13)
+ (2, 9)
+ (2, 12)
+ (16, 5)
+ (2, 15)
+ (16, 14)
+ (6, 9)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",7,TRUE,FALSE,FALSE,3,5,FALSE,TRUE,FALSE,2
+46,"You are given an undirected graph with 4 vertices labeled 0 through 3.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (0, 1)
+ (0, 2)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",2,FALSE,TRUE,FALSE,2,2,FALSE,TRUE,FALSE,2
+47,"You are given an undirected graph with 5 vertices labeled 0 through 4.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (0, 1)
+ (1, 2)
+ (0, 4)
+ (3, 4)
+ (0, 3)
+ (2, 3)
+ (0, 2)
+ (1, 3)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",4,TRUE,FALSE,TRUE,4,4,TRUE,FALSE,TRUE,4
+48,"You are given an undirected graph with 11 vertices labeled 0 through 10.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (3, 4)
+ (4, 9)
+ (3, 7)
+ (4, 6)
+ (3, 10)
+ (5, 7)
+ (0, 2)
+ (5, 10)
+ (8, 9)
+ (0, 5)
+ (1, 6)
+ (0, 8)
+ (2, 5)
+ (1, 9)
+ (2, 8)
+ (7, 10)
+ (6, 8)
+ (4, 5)
+ (3, 9)
+ (5, 6)
+ (4, 8)
+ (3, 6)
+ (0, 1)
+ (0, 7)
+ (9, 10)
+ (1, 2)
+ (0, 4)
+ (0, 10)
+ (1, 5)
+ (2, 10)
+ (1, 8)
+ (7, 9)
+ (6, 10)
+ (4, 7)
+ (3, 5)
+ (4, 10)
+ (3, 8)
+ (5, 8)
+ (0, 3)
+ (0, 9)
+ (8, 10)
+ (1, 4)
+ (0, 6)
+ (2, 3)
+ (2, 9)
+ (1, 7)
+ (2, 6)
+ (1, 10)
+ (6, 9)
+ (7, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",10,TRUE,FALSE,TRUE,7,9,TRUE,FALSE,TRUE,4
+49,"You are given an undirected graph with 12 vertices labeled 0 through 11.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (3, 4)
+ (3, 1)
+ (3, 10)
+ (5, 7)
+ (5, 10)
+ (8, 9)
+ (0, 5)
+ (1, 6)
+ (0, 8)
+ (9, 11)
+ (2, 11)
+ (1, 9)
+ (11, 4)
+ (1, 2)
+ (3, 2)
+ (3, 5)
+ (3, 11)
+ (4, 10)
+ (5, 11)
+ (0, 3)
+ (2, 9)
+ (1, 7)
+ (2, 6)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",7,TRUE,FALSE,TRUE,3,6,TRUE,FALSE,TRUE,3
+50,"You are given an undirected graph with 5 vertices labeled 0 through 4.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (2, 4)
+ (0, 4)
+ (2, 1)
+ (3, 4)
+ (3, 1)
+ (0, 3)
+ (2, 3)
+ (0, 2)
+ (4, 1)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",4,TRUE,FALSE,TRUE,4,4,TRUE,FALSE,TRUE,4
+51,"You are given an undirected graph with 4 vertices labeled 0 through 3.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ 
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",0,FALSE,TRUE,FALSE,1,0,FALSE,TRUE,FALSE,1
+52,"You are given an undirected graph with 20 vertices labeled 0 through 19.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (6, 18)
+ (8, 9)
+ (11, 5)
+ (8, 18)
+ (11, 14)
+ (2, 11)
+ (7, 1)
+ (7, 10)
+ (7, 19)
+ (17, 5)
+ (17, 14)
+ (8, 11)
+ (0, 7)
+ (11, 16)
+ (15, 16)
+ (6, 13)
+ (7, 12)
+ (11, 9)
+ (1, 10)
+ (15, 9)
+ (7, 5)
+ (15, 18)
+ (7, 14)
+ (12, 13)
+ (19, 6)
+ (0, 2)
+ (5, 16)
+ (13, 14)
+ (7, 16)
+ (12, 15)
+ (5, 9)
+ (4, 11)
+ (1, 5)
+ (16, 3)
+ (1, 14)
+ (13, 16)
+ (12, 17)
+ (4, 13)
+ (8, 13)
+ (19, 13)
+ (13, 9)
+ (15, 6)
+ (2, 6)
+ (1, 16)
+ (11, 18)
+ (2, 15)
+ (13, 18)
+ (12, 1)
+ (12, 10)
+ (4, 6)
+ (5, 13)
+ (4, 15)
+ (17, 18)
+ (8, 15)
+ (0, 11)
+ (2, 8)
+ (1, 18)
+ (2, 17)
+ (12, 3)
+ (14, 9)
+ (3, 9)
+ (0, 4)
+ (8, 17)
+ (2, 10)
+ (2, 19)
+ (6, 10)
+ (12, 5)
+ (7, 18)
+ (12, 14)
+ (4, 19)
+ (19, 1)
+ (17, 13)
+ (8, 10)
+ (19, 10)
+ (2, 3)
+ (1, 13)
+ (0, 15)
+ (11, 15)
+ (6, 3)
+ (4, 3)
+ (12, 16)
+ (17, 6)
+ (8, 3)
+ (8, 12)
+ (10, 9)
+ (1, 6)
+ (0, 8)
+ (2, 5)
+ (10, 18)
+ (0, 17)
+ (2, 14)
+ (6, 14)
+ (7, 13)
+ (12, 9)
+ (4, 14)
+ (19, 5)
+ (11, 1)
+ (8, 14)
+ (19, 14)
+ (11, 10)
+ (2, 7)
+ (0, 19)
+ (2, 16)
+ (11, 19)
+ (15, 10)
+ (15, 19)
+ (4, 7)
+ (17, 1)
+ (11, 3)
+ (17, 19)
+ (8, 16)
+ (10, 13)
+ (0, 12)
+ (2, 9)
+ (11, 12)
+ (2, 18)
+ (15, 3)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",15,TRUE,FALSE,TRUE,6,14,TRUE,FALSE,TRUE,5
+53,"You are given an undirected graph with 19 vertices labeled 0 through 18.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (6, 18)
+ (7, 17)
+ (4, 9)
+ (17, 3)
+ (5, 10)
+ (8, 9)
+ (0, 5)
+ (8, 18)
+ (9, 17)
+ (0, 14)
+ (11, 14)
+ (6, 2)
+ (1, 15)
+ (13, 17)
+ (6, 11)
+ (7, 10)
+ (4, 2)
+ (5, 3)
+ (8, 2)
+ (12, 18)
+ (14, 15)
+ (5, 12)
+ (3, 15)
+ (9, 10)
+ (0, 7)
+ (0, 16)
+ (11, 16)
+ (1, 8)
+ (7, 3)
+ (1, 17)
+ (18, 3)
+ (6, 13)
+ (16, 15)
+ (7, 12)
+ (9, 3)
+ (14, 17)
+ (5, 14)
+ (9, 12)
+ (0, 9)
+ (13, 3)
+ (1, 10)
+ (16, 17)
+ (7, 14)
+ (12, 13)
+ (5, 7)
+ (11, 2)
+ (5, 16)
+ (4, 18)
+ (9, 14)
+ (1, 3)
+ (1, 12)
+ (13, 14)
+ (7, 16)
+ (14, 3)
+ (17, 2)
+ (12, 15)
+ (4, 11)
+ (5, 18)
+ (9, 16)
+ (1, 5)
+ (16, 3)
+ (10, 17)
+ (1, 14)
+ (13, 16)
+ (5, 2)
+ (12, 17)
+ (5, 11)
+ (4, 13)
+ (8, 13)
+ (1, 7)
+ (7, 2)
+ (1, 16)
+ (0, 18)
+ (11, 18)
+ (13, 18)
+ (7, 11)
+ (2, 15)
+ (6, 15)
+ (4, 6)
+ (9, 2)
+ (14, 16)
+ (5, 13)
+ (4, 15)
+ (10, 3)
+ (17, 18)
+ (8, 15)
+ (10, 12)
+ (1, 9)
+ (0, 11)
+ (1, 18)
+ (6, 8)
+ (12, 3)
+ (6, 17)
+ (5, 6)
+ (4, 8)
+ (14, 18)
+ (4, 17)
+ (1, 2)
+ (0, 4)
+ (8, 17)
+ (10, 14)
+ (1, 11)
+ (0, 13)
+ (11, 13)
+ (6, 10)
+ (14, 2)
+ (7, 18)
+ (12, 14)
+ (4, 10)
+ (8, 10)
+ (1, 4)
+ (0, 6)
+ (2, 3)
+ (16, 2)
+ (10, 16)
+ (1, 13)
+ (9, 18)
+ (11, 15)
+ (6, 3)
+ (6, 12)
+ (4, 3)
+ (12, 16)
+ (8, 3)
+ (8, 12)
+ (1, 6)
+ (0, 8)
+ (10, 18)
+ (0, 17)
+ (11, 17)
+ (6, 14)
+ (7, 13)
+ (4, 5)
+ (4, 14)
+ (10, 2)
+ (0, 1)
+ (5, 15)
+ (8, 14)
+ (10, 11)
+ (9, 13)
+ (0, 10)
+ (6, 7)
+ (12, 2)
+ (6, 16)
+ (16, 18)
+ (4, 16)
+ (5, 8)
+ (11, 3)
+ (5, 17)
+ (8, 16)
+ (10, 13)
+ (9, 15)
+ (0, 12)
+ (13, 15)
+ (6, 9)
+ (7, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",18,TRUE,FALSE,TRUE,13,18,TRUE,FALSE,TRUE,6
+54,"You are given an undirected graph with 10 vertices labeled 0 through 9.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (3, 4)
+ (3, 1)
+ (3, 7)
+ (5, 1)
+ (5, 7)
+ (0, 2)
+ (0, 5)
+ (2, 5)
+ (1, 9)
+ (2, 8)
+ (6, 8)
+ (3, 9)
+ (5, 6)
+ (4, 8)
+ (5, 9)
+ (9, 7)
+ (9, 4)
+ (2, 4)
+ (2, 1)
+ (2, 7)
+ (6, 4)
+ (6, 7)
+ (3, 5)
+ (3, 8)
+ (5, 8)
+ (0, 3)
+ (0, 6)
+ (2, 9)
+ (2, 6)
+ (7, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",8,TRUE,FALSE,TRUE,5,7,TRUE,FALSE,TRUE,4
+55,"You are given an undirected graph with 2 vertices labeled 0 through 1.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ 
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",0,FALSE,TRUE,FALSE,1,0,FALSE,TRUE,FALSE,1
+56,"You are given an undirected graph with 5 vertices labeled 0 through 4.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ 
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",0,FALSE,TRUE,FALSE,1,0,FALSE,TRUE,FALSE,1
+57,"You are given an undirected graph with 15 vertices labeled 0 through 14.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (4, 3)
+ (14, 1)
+ (4, 6)
+ (5, 13)
+ (0, 2)
+ (8, 3)
+ (8, 9)
+ (8, 12)
+ (9, 11)
+ (0, 14)
+ (10, 12)
+ (10, 11)
+ (0, 4)
+ (0, 10)
+ (2, 7)
+ (10, 14)
+ (1, 5)
+ (1, 8)
+ (7, 12)
+ (12, 11)
+ (4, 10)
+ (10, 1)
+ (10, 13)
+ (0, 6)
+ (13, 9)
+ (6, 3)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",7,TRUE,FALSE,TRUE,3,5,FALSE,TRUE,FALSE,2
+58,"You are given an undirected graph with 2 vertices labeled 0 through 1.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ 
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",0,FALSE,TRUE,FALSE,1,0,FALSE,TRUE,FALSE,1
+59,"You are given an undirected graph with 3 vertices labeled 0 through 2.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ 
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",0,FALSE,TRUE,FALSE,1,0,FALSE,TRUE,FALSE,1
+60,"You are given an undirected graph with 3 vertices labeled 0 through 2.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (0, 2)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",1,FALSE,TRUE,FALSE,2,1,FALSE,TRUE,FALSE,2
+61,"You are given an undirected graph with 14 vertices labeled 0 through 13.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (3, 4)
+ (4, 9)
+ (3, 7)
+ (12, 13)
+ (3, 10)
+ (5, 7)
+ (5, 13)
+ (3, 13)
+ (0, 2)
+ (8, 9)
+ (9, 10)
+ (10, 6)
+ (0, 5)
+ (8, 6)
+ (8, 12)
+ (1, 6)
+ (0, 8)
+ (2, 5)
+ (1, 3)
+ (1, 9)
+ (0, 11)
+ (2, 8)
+ (2, 11)
+ (1, 12)
+ (9, 11)
+ (10, 12)
+ (7, 10)
+ (7, 13)
+ (4, 5)
+ (12, 6)
+ (3, 9)
+ (4, 8)
+ (3, 12)
+ (5, 9)
+ (4, 11)
+ (8, 11)
+ (0, 1)
+ (0, 7)
+ (2, 4)
+ (1, 2)
+ (0, 4)
+ (0, 10)
+ (2, 7)
+ (1, 5)
+ (1, 11)
+ (0, 13)
+ (9, 13)
+ (1, 8)
+ (10, 11)
+ (7, 9)
+ (7, 6)
+ (7, 12)
+ (4, 7)
+ (3, 5)
+ (3, 11)
+ (4, 10)
+ (3, 8)
+ (4, 13)
+ (5, 8)
+ (9, 6)
+ (0, 3)
+ (0, 9)
+ (8, 10)
+ (9, 12)
+ (10, 13)
+ (0, 12)
+ (2, 3)
+ (1, 7)
+ (1, 13)
+ (2, 6)
+ (11, 6)
+ (1, 10)
+ (11, 12)
+ (7, 11)
+ (7, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",13,TRUE,FALSE,TRUE,9,9,TRUE,FALSE,TRUE,4
+62,"You are given an undirected graph with 14 vertices labeled 0 through 13.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (12, 1)
+ (12, 7)
+ (3, 4)
+ (3, 1)
+ (3, 7)
+ (3, 10)
+ (9, 2)
+ (5, 7)
+ (8, 9)
+ (0, 8)
+ (2, 5)
+ (10, 12)
+ (6, 2)
+ (6, 8)
+ (3, 12)
+ (9, 1)
+ (9, 7)
+ (8, 5)
+ (8, 11)
+ (9, 4)
+ (9, 10)
+ (10, 2)
+ (10, 5)
+ (1, 2)
+ (2, 4)
+ (0, 10)
+ (11, 7)
+ (1, 5)
+ (1, 11)
+ (6, 4)
+ (6, 7)
+ (6, 13)
+ (12, 11)
+ (4, 7)
+ (3, 8)
+ (5, 11)
+ (10, 4)
+ (0, 3)
+ (0, 9)
+ (9, 12)
+ (10, 1)
+ (0, 6)
+ (0, 12)
+ (10, 13)
+ (1, 13)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",9,TRUE,FALSE,TRUE,4,7,TRUE,FALSE,TRUE,4
+63,"You are given an undirected graph with 2 vertices labeled 0 through 1.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ 
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",0,FALSE,TRUE,FALSE,1,0,FALSE,TRUE,FALSE,1
+64,"You are given an undirected graph with 3 vertices labeled 0 through 2.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (0, 1)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",1,FALSE,TRUE,FALSE,2,1,FALSE,TRUE,FALSE,2
+65,"You are given an undirected graph with 4 vertices labeled 0 through 3.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ 
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",0,FALSE,TRUE,FALSE,1,0,FALSE,TRUE,FALSE,1
+66,"You are given an undirected graph with 11 vertices labeled 0 through 10.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (3, 4)
+ (3, 1)
+ (5, 4)
+ (0, 2)
+ (5, 10)
+ (1, 6)
+ (7, 4)
+ (5, 6)
+ (4, 8)
+ (9, 1)
+ (9, 10)
+ (0, 7)
+ (2, 4)
+ (1, 5)
+ (2, 10)
+ (7, 6)
+ (3, 5)
+ (10, 4)
+ (0, 3)
+ (0, 9)
+ (2, 3)
+ (2, 9)
+ (1, 10)
+ (7, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",6,TRUE,FALSE,TRUE,3,7,TRUE,FALSE,FALSE,3
+67,"You are given an undirected graph with 3 vertices labeled 0 through 2.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (0, 2)
+ (2, 1)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",2,TRUE,TRUE,FALSE,2,2,TRUE,TRUE,FALSE,2
+68,"You are given an undirected graph with 5 vertices labeled 0 through 4.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (1, 2)
+ (0, 3)
+ (0, 4)
+ (4, 2)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",2,TRUE,TRUE,FALSE,2,2,FALSE,TRUE,FALSE,2
+69,"You are given an undirected graph with 4 vertices labeled 0 through 3.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (0, 1)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",1,FALSE,TRUE,FALSE,2,1,FALSE,TRUE,FALSE,2
+70,"You are given an undirected graph with 8 vertices labeled 0 through 7.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (0, 1)
+ (0, 7)
+ (0, 4)
+ (1, 5)
+ (0, 3)
+ (4, 6)
+ (1, 4)
+ (4, 2)
+ (5, 7)
+ (7, 6)
+ (5, 6)
+ (0, 5)
+ (1, 6)
+ (3, 2)
+ (1, 3)
+ (4, 7)
+ (3, 5)
+ (5, 2)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",6,TRUE,FALSE,TRUE,4,6,TRUE,FALSE,TRUE,4
+71,"You are given an undirected graph with 2 vertices labeled 0 through 1.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ 
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",0,FALSE,TRUE,FALSE,1,0,FALSE,TRUE,FALSE,1
+72,"You are given an undirected graph with 11 vertices labeled 0 through 10.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (2, 5)
+ (1, 9)
+ (7, 4)
+ (6, 2)
+ (7, 10)
+ (6, 8)
+ (5, 9)
+ (0, 7)
+ (1, 2)
+ (1, 5)
+ (6, 1)
+ (6, 4)
+ (6, 10)
+ (3, 8)
+ (8, 4)
+ (5, 8)
+ (0, 6)
+ (7, 2)
+ (6, 3)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",7,TRUE,FALSE,FALSE,3,6,TRUE,FALSE,FALSE,3
+73,"You are given an undirected graph with 20 vertices labeled 0 through 19.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (6, 18)
+ (7, 17)
+ (4, 9)
+ (3, 13)
+ (5, 10)
+ (8, 9)
+ (0, 5)
+ (5, 19)
+ (8, 18)
+ (9, 17)
+ (0, 14)
+ (2, 11)
+ (11, 14)
+ (1, 15)
+ (13, 17)
+ (6, 11)
+ (7, 10)
+ (7, 19)
+ (18, 19)
+ (3, 6)
+ (12, 18)
+ (3, 15)
+ (5, 12)
+ (8, 11)
+ (14, 15)
+ (9, 10)
+ (0, 7)
+ (2, 4)
+ (0, 16)
+ (11, 16)
+ (1, 8)
+ (1, 17)
+ (13, 19)
+ (6, 13)
+ (15, 16)
+ (7, 12)
+ (3, 8)
+ (3, 17)
+ (5, 14)
+ (14, 17)
+ (9, 12)
+ (0, 9)
+ (1, 10)
+ (1, 19)
+ (15, 18)
+ (16, 17)
+ (7, 14)
+ (3, 10)
+ (5, 7)
+ (0, 2)
+ (3, 19)
+ (4, 18)
+ (5, 16)
+ (9, 14)
+ (14, 19)
+ (1, 3)
+ (10, 15)
+ (1, 12)
+ (13, 14)
+ (16, 19)
+ (7, 16)
+ (12, 15)
+ (3, 12)
+ (5, 9)
+ (4, 11)
+ (5, 18)
+ (9, 16)
+ (1, 5)
+ (10, 17)
+ (1, 14)
+ (13, 16)
+ (2, 13)
+ (7, 9)
+ (3, 5)
+ (12, 17)
+ (3, 14)
+ (5, 11)
+ (4, 13)
+ (8, 13)
+ (1, 7)
+ (2, 6)
+ (10, 19)
+ (1, 16)
+ (0, 18)
+ (2, 15)
+ (11, 18)
+ (7, 11)
+ (13, 18)
+ (6, 15)
+ (3, 7)
+ (4, 6)
+ (12, 19)
+ (3, 16)
+ (5, 13)
+ (4, 15)
+ (14, 16)
+ (17, 18)
+ (8, 15)
+ (10, 12)
+ (1, 9)
+ (0, 11)
+ (2, 8)
+ (1, 18)
+ (2, 17)
+ (6, 8)
+ (6, 17)
+ (3, 9)
+ (5, 6)
+ (4, 8)
+ (3, 18)
+ (14, 18)
+ (4, 17)
+ (1, 2)
+ (0, 4)
+ (8, 17)
+ (10, 14)
+ (1, 11)
+ (0, 13)
+ (2, 10)
+ (11, 13)
+ (2, 19)
+ (6, 10)
+ (6, 19)
+ (7, 18)
+ (12, 14)
+ (3, 11)
+ (8, 10)
+ (1, 4)
+ (0, 6)
+ (2, 3)
+ (8, 19)
+ (10, 16)
+ (1, 13)
+ (0, 15)
+ (2, 12)
+ (9, 18)
+ (11, 15)
+ (6, 12)
+ (3, 4)
+ (12, 16)
+ (4, 12)
+ (8, 12)
+ (1, 6)
+ (0, 8)
+ (2, 5)
+ (9, 11)
+ (10, 18)
+ (0, 17)
+ (2, 14)
+ (11, 17)
+ (15, 17)
+ (6, 14)
+ (7, 13)
+ (4, 5)
+ (0, 1)
+ (8, 14)
+ (10, 11)
+ (9, 13)
+ (0, 10)
+ (2, 7)
+ (0, 19)
+ (2, 16)
+ (11, 19)
+ (6, 7)
+ (15, 19)
+ (6, 16)
+ (16, 18)
+ (7, 15)
+ (4, 7)
+ (4, 16)
+ (5, 8)
+ (0, 3)
+ (5, 17)
+ (8, 16)
+ (17, 19)
+ (9, 15)
+ (0, 12)
+ (2, 9)
+ (11, 12)
+ (2, 18)
+ (13, 15)
+ (7, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",19,TRUE,FALSE,TRUE,16,19,TRUE,FALSE,TRUE,4
+74,"You are given an undirected graph with 20 vertices labeled 0 through 19.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (6, 18)
+ (7, 17)
+ (4, 9)
+ (3, 13)
+ (5, 10)
+ (8, 9)
+ (0, 5)
+ (5, 19)
+ (19, 18)
+ (9, 17)
+ (0, 14)
+ (11, 14)
+ (6, 2)
+ (13, 17)
+ (6, 11)
+ (7, 10)
+ (7, 19)
+ (3, 6)
+ (8, 2)
+ (19, 2)
+ (12, 18)
+ (14, 15)
+ (5, 12)
+ (8, 11)
+ (9, 10)
+ (0, 7)
+ (0, 16)
+ (11, 16)
+ (1, 8)
+ (1, 17)
+ (13, 19)
+ (6, 13)
+ (7, 12)
+ (3, 8)
+ (3, 17)
+ (5, 14)
+ (14, 17)
+ (0, 9)
+ (1, 10)
+ (1, 19)
+ (15, 18)
+ (16, 17)
+ (7, 14)
+ (12, 13)
+ (3, 10)
+ (5, 7)
+ (3, 19)
+ (5, 16)
+ (4, 18)
+ (11, 2)
+ (9, 14)
+ (14, 19)
+ (1, 3)
+ (15, 2)
+ (10, 15)
+ (1, 12)
+ (13, 14)
+ (16, 19)
+ (7, 16)
+ (17, 2)
+ (12, 15)
+ (3, 12)
+ (5, 9)
+ (4, 11)
+ (5, 18)
+ (9, 16)
+ (1, 5)
+ (10, 17)
+ (1, 14)
+ (7, 9)
+ (3, 5)
+ (5, 2)
+ (3, 14)
+ (5, 11)
+ (4, 13)
+ (8, 13)
+ (1, 7)
+ (7, 2)
+ (1, 16)
+ (10, 19)
+ (11, 18)
+ (7, 11)
+ (6, 15)
+ (3, 7)
+ (4, 6)
+ (9, 2)
+ (3, 16)
+ (5, 13)
+ (4, 15)
+ (12, 19)
+ (14, 16)
+ (13, 2)
+ (17, 18)
+ (8, 15)
+ (10, 12)
+ (1, 9)
+ (0, 11)
+ (1, 18)
+ (6, 8)
+ (6, 17)
+ (5, 6)
+ (4, 8)
+ (3, 18)
+ (4, 17)
+ (1, 2)
+ (0, 4)
+ (8, 17)
+ (0, 13)
+ (11, 13)
+ (6, 10)
+ (3, 2)
+ (6, 19)
+ (7, 18)
+ (12, 14)
+ (4, 10)
+ (4, 19)
+ (8, 10)
+ (1, 4)
+ (0, 6)
+ (16, 2)
+ (10, 16)
+ (1, 13)
+ (0, 15)
+ (9, 18)
+ (11, 15)
+ (6, 12)
+ (3, 4)
+ (12, 16)
+ (4, 12)
+ (8, 12)
+ (0, 8)
+ (10, 18)
+ (0, 17)
+ (11, 17)
+ (15, 17)
+ (6, 14)
+ (7, 13)
+ (4, 5)
+ (4, 14)
+ (10, 2)
+ (0, 1)
+ (9, 13)
+ (0, 10)
+ (0, 19)
+ (11, 19)
+ (6, 7)
+ (12, 2)
+ (6, 16)
+ (15, 19)
+ (7, 15)
+ (16, 18)
+ (4, 7)
+ (4, 16)
+ (5, 8)
+ (0, 3)
+ (5, 17)
+ (8, 16)
+ (10, 13)
+ (9, 15)
+ (0, 12)
+ (11, 12)
+ (17, 19)
+ (2, 18)
+ (13, 15)
+ (6, 9)
+ (7, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",19,TRUE,FALSE,TRUE,10,19,TRUE,FALSE,TRUE,4
+75,"You are given an undirected graph with 8 vertices labeled 0 through 7.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (3, 4)
+ (3, 7)
+ (4, 6)
+ (0, 5)
+ (1, 6)
+ (6, 2)
+ (4, 2)
+ (4, 5)
+ (5, 6)
+ (3, 6)
+ (0, 1)
+ (0, 7)
+ (1, 2)
+ (0, 4)
+ (6, 7)
+ (4, 7)
+ (3, 5)
+ (5, 2)
+ (0, 3)
+ (1, 4)
+ (0, 6)
+ (7, 2)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",7,TRUE,FALSE,TRUE,5,7,TRUE,FALSE,TRUE,4
+76,"You are given an undirected graph with 1 vertices labeled 0 through 0.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ 
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",0,TRUE,TRUE,FALSE,1,0,TRUE,TRUE,FALSE,1
+77,"You are given an undirected graph with 17 vertices labeled 0 through 16.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (12, 4)
+ (3, 13)
+ (5, 10)
+ (8, 9)
+ (0, 5)
+ (0, 14)
+ (1, 15)
+ (6, 11)
+ (7, 10)
+ (3, 6)
+ (3, 15)
+ (5, 12)
+ (8, 11)
+ (9, 10)
+ (0, 7)
+ (2, 4)
+ (0, 16)
+ (11, 16)
+ (1, 8)
+ (15, 16)
+ (6, 13)
+ (7, 12)
+ (3, 8)
+ (8, 4)
+ (5, 14)
+ (9, 12)
+ (0, 9)
+ (1, 10)
+ (7, 14)
+ (12, 13)
+ (3, 10)
+ (0, 2)
+ (5, 16)
+ (9, 14)
+ (1, 3)
+ (10, 15)
+ (1, 12)
+ (13, 14)
+ (7, 16)
+ (12, 15)
+ (3, 12)
+ (5, 9)
+ (11, 4)
+ (9, 16)
+ (1, 5)
+ (15, 4)
+ (13, 16)
+ (2, 13)
+ (7, 9)
+ (3, 5)
+ (3, 14)
+ (5, 11)
+ (8, 13)
+ (1, 7)
+ (2, 6)
+ (1, 16)
+ (2, 15)
+ (7, 11)
+ (6, 15)
+ (3, 7)
+ (3, 16)
+ (5, 13)
+ (14, 16)
+ (8, 15)
+ (10, 12)
+ (1, 9)
+ (0, 11)
+ (2, 8)
+ (7, 4)
+ (6, 8)
+ (3, 9)
+ (5, 6)
+ (1, 2)
+ (13, 4)
+ (10, 14)
+ (1, 11)
+ (0, 13)
+ (11, 13)
+ (6, 10)
+ (12, 14)
+ (3, 11)
+ (8, 10)
+ (1, 4)
+ (0, 6)
+ (2, 3)
+ (10, 16)
+ (1, 13)
+ (0, 15)
+ (2, 12)
+ (11, 15)
+ (6, 12)
+ (3, 4)
+ (14, 4)
+ (12, 16)
+ (8, 12)
+ (1, 6)
+ (0, 8)
+ (2, 5)
+ (16, 4)
+ (2, 14)
+ (6, 14)
+ (7, 13)
+ (9, 4)
+ (0, 1)
+ (5, 15)
+ (8, 14)
+ (10, 11)
+ (9, 13)
+ (0, 10)
+ (2, 7)
+ (2, 16)
+ (6, 7)
+ (7, 15)
+ (5, 8)
+ (10, 4)
+ (0, 3)
+ (8, 16)
+ (10, 13)
+ (9, 15)
+ (0, 12)
+ (2, 9)
+ (11, 12)
+ (13, 15)
+ (6, 9)
+ (7, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",16,TRUE,FALSE,TRUE,11,10,TRUE,FALSE,TRUE,4
+78,"You are given an undirected graph with 6 vertices labeled 0 through 5.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (1, 2)
+ (0, 4)
+ (4, 3)
+ (4, 5)
+ (2, 5)
+ (4, 1)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",4,TRUE,TRUE,FALSE,2,3,TRUE,TRUE,FALSE,3
+79,"You are given an undirected graph with 15 vertices labeled 0 through 14.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (4, 12)
+ (9, 7)
+ (0, 3)
+ (0, 9)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",2,FALSE,TRUE,FALSE,2,2,FALSE,TRUE,FALSE,2
+80,"You are given an undirected graph with 9 vertices labeled 0 through 8.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (0, 7)
+ (6, 1)
+ (6, 8)
+ (1, 8)
+ (6, 4)
+ (1, 4)
+ (0, 6)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",4,FALSE,FALSE,FALSE,3,3,FALSE,FALSE,FALSE,3
+81,"You are given an undirected graph with 4 vertices labeled 0 through 3.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (0, 1)
+ (0, 3)
+ (2, 3)
+ (0, 2)
+ (1, 3)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",3,TRUE,FALSE,TRUE,3,3,TRUE,TRUE,TRUE,3
+82,"You are given an undirected graph with 7 vertices labeled 0 through 6.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (0, 1)
+ (6, 2)
+ (6, 5)
+ (0, 6)
+ (6, 3)
+ (1, 3)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",4,FALSE,TRUE,FALSE,2,4,FALSE,FALSE,FALSE,2
+83,"You are given an undirected graph with 8 vertices labeled 0 through 7.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (3, 4)
+ (3, 7)
+ (4, 6)
+ (5, 7)
+ (0, 2)
+ (0, 5)
+ (1, 6)
+ (2, 5)
+ (5, 6)
+ (3, 6)
+ (0, 1)
+ (0, 7)
+ (1, 2)
+ (0, 4)
+ (2, 7)
+ (1, 5)
+ (7, 6)
+ (4, 7)
+ (3, 5)
+ (0, 3)
+ (2, 3)
+ (1, 7)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",7,TRUE,FALSE,TRUE,5,4,TRUE,FALSE,TRUE,4
+84,"You are given an undirected graph with 15 vertices labeled 0 through 14.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (4, 3)
+ (12, 10)
+ (4, 6)
+ (4, 12)
+ (12, 13)
+ (14, 10)
+ (3, 10)
+ (0, 2)
+ (8, 3)
+ (8, 9)
+ (11, 5)
+ (0, 8)
+ (11, 14)
+ (0, 11)
+ (1, 12)
+ (7, 10)
+ (7, 13)
+ (12, 3)
+ (12, 6)
+ (14, 9)
+ (5, 9)
+ (8, 11)
+ (0, 1)
+ (2, 4)
+ (8, 14)
+ (10, 5)
+ (2, 7)
+ (11, 13)
+ (1, 8)
+ (1, 14)
+ (13, 10)
+ (2, 13)
+ (7, 3)
+ (7, 9)
+ (7, 12)
+ (12, 5)
+ (4, 7)
+ (4, 10)
+ (1, 4)
+ (8, 13)
+ (1, 7)
+ (2, 12)
+ (7, 5)
+ (6, 9)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",9,TRUE,FALSE,TRUE,5,7,TRUE,FALSE,FALSE,4
+85,"You are given an undirected graph with 4 vertices labeled 0 through 3.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (1, 2)
+ (1, 3)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",2,FALSE,TRUE,FALSE,2,2,FALSE,TRUE,FALSE,2
+86,"You are given an undirected graph with 3 vertices labeled 0 through 2.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (0, 2)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",1,FALSE,TRUE,FALSE,2,1,FALSE,TRUE,FALSE,2
+87,"You are given an undirected graph with 6 vertices labeled 0 through 5.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (0, 2)
+ (0, 3)
+ (2, 5)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",2,FALSE,TRUE,FALSE,2,2,FALSE,TRUE,FALSE,2
+88,"You are given an undirected graph with 10 vertices labeled 0 through 9.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (0, 1)
+ (7, 4)
+ (3, 8)
+ (8, 4)
+ (2, 7)
+ (7, 3)
+ (3, 5)
+ (7, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",4,FALSE,FALSE,FALSE,3,4,FALSE,TRUE,FALSE,2
+89,"You are given an undirected graph with 18 vertices labeled 0 through 17.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (4, 3)
+ (4, 9)
+ (4, 12)
+ (17, 3)
+ (17, 9)
+ (14, 16)
+ (17, 12)
+ (8, 3)
+ (8, 9)
+ (2, 5)
+ (10, 12)
+ (0, 17)
+ (15, 5)
+ (15, 11)
+ (1, 15)
+ (7, 16)
+ (14, 6)
+ (14, 9)
+ (3, 12)
+ (4, 11)
+ (17, 8)
+ (0, 7)
+ (10, 11)
+ (0, 4)
+ (11, 16)
+ (0, 13)
+ (2, 10)
+ (1, 8)
+ (13, 16)
+ (1, 14)
+ (7, 6)
+ (7, 15)
+ (14, 5)
+ (4, 16)
+ (2, 3)
+ (13, 9)
+ (15, 6)
+ (2, 6)
+ (13, 6)
+ (2, 12)
+ (10, 16)
+ (7, 5)
+ (7, 14)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",6,TRUE,FALSE,TRUE,3,6,FALSE,FALSE,FALSE,3
+90,"You are given an undirected graph with 6 vertices labeled 0 through 5.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (3, 4)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",1,FALSE,TRUE,FALSE,2,1,FALSE,TRUE,FALSE,2
+91,"You are given an undirected graph with 16 vertices labeled 0 through 15.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (0, 2)
+ (10, 6)
+ (8, 6)
+ (1, 6)
+ (0, 8)
+ (2, 5)
+ (0, 14)
+ (2, 11)
+ (0, 11)
+ (10, 12)
+ (2, 14)
+ (10, 15)
+ (11, 14)
+ (1, 9)
+ (5, 12)
+ (8, 11)
+ (0, 7)
+ (2, 4)
+ (0, 10)
+ (10, 14)
+ (15, 4)
+ (1, 5)
+ (15, 1)
+ (6, 4)
+ (7, 9)
+ (4, 13)
+ (9, 3)
+ (10, 1)
+ (11, 9)
+ (2, 3)
+ (2, 9)
+ (0, 15)
+ (2, 6)
+ (2, 12)
+ (15, 3)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",9,TRUE,FALSE,FALSE,4,6,TRUE,FALSE,FALSE,3
+92,"You are given an undirected graph with 13 vertices labeled 0 through 12.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (6, 12)
+ (5, 1)
+ (3, 10)
+ (11, 2)
+ (0, 5)
+ (10, 12)
+ (0, 11)
+ (7, 4)
+ (7, 1)
+ (7, 10)
+ (3, 6)
+ (5, 12)
+ (9, 4)
+ (0, 7)
+ (11, 10)
+ (1, 8)
+ (7, 6)
+ (5, 2)
+ (5, 11)
+ (11, 3)
+ (0, 9)
+ (1, 4)
+ (11, 12)
+ (7, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",6,TRUE,FALSE,TRUE,3,6,TRUE,FALSE,FALSE,3
+93,"You are given an undirected graph with 10 vertices labeled 0 through 9.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (3, 1)
+ (3, 7)
+ (4, 6)
+ (5, 1)
+ (5, 7)
+ (0, 2)
+ (9, 8)
+ (0, 5)
+ (7, 1)
+ (6, 8)
+ (5, 6)
+ (4, 8)
+ (3, 6)
+ (5, 9)
+ (9, 1)
+ (0, 7)
+ (2, 4)
+ (0, 4)
+ (2, 7)
+ (1, 8)
+ (4, 7)
+ (3, 5)
+ (0, 3)
+ (0, 9)
+ (0, 6)
+ (2, 9)
+ (2, 6)
+ (6, 9)
+ (7, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",7,TRUE,FALSE,TRUE,4,7,TRUE,FALSE,TRUE,4
+94,"You are given an undirected graph with 7 vertices labeled 0 through 6.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (0, 1)
+ (6, 2)
+ (0, 4)
+ (4, 6)
+ (0, 6)
+ (1, 3)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",3,FALSE,FALSE,FALSE,3,3,FALSE,TRUE,FALSE,2
+95,"You are given an undirected graph with 20 vertices labeled 0 through 19.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (7, 17)
+ (5, 1)
+ (3, 13)
+ (14, 13)
+ (8, 9)
+ (17, 12)
+ (0, 5)
+ (5, 19)
+ (8, 18)
+ (9, 17)
+ (0, 14)
+ (11, 14)
+ (7, 1)
+ (18, 1)
+ (6, 11)
+ (16, 13)
+ (7, 10)
+ (4, 2)
+ (7, 19)
+ (18, 19)
+ (3, 6)
+ (8, 2)
+ (19, 2)
+ (3, 15)
+ (5, 12)
+ (8, 11)
+ (14, 15)
+ (9, 10)
+ (0, 7)
+ (9, 19)
+ (0, 16)
+ (11, 16)
+ (15, 16)
+ (6, 13)
+ (7, 12)
+ (18, 12)
+ (3, 8)
+ (3, 17)
+ (5, 14)
+ (14, 17)
+ (9, 12)
+ (0, 9)
+ (16, 17)
+ (7, 14)
+ (3, 1)
+ (14, 1)
+ (12, 13)
+ (3, 10)
+ (5, 7)
+ (3, 19)
+ (5, 16)
+ (4, 18)
+ (14, 19)
+ (9, 14)
+ (15, 2)
+ (16, 1)
+ (10, 15)
+ (1, 12)
+ (16, 19)
+ (7, 16)
+ (17, 2)
+ (3, 12)
+ (5, 9)
+ (4, 11)
+ (14, 12)
+ (5, 18)
+ (9, 16)
+ (6, 1)
+ (10, 17)
+ (15, 13)
+ (16, 12)
+ (3, 5)
+ (5, 2)
+ (3, 14)
+ (5, 11)
+ (4, 13)
+ (10, 1)
+ (19, 13)
+ (7, 2)
+ (10, 19)
+ (0, 18)
+ (11, 18)
+ (18, 2)
+ (7, 11)
+ (3, 7)
+ (4, 6)
+ (9, 2)
+ (3, 16)
+ (5, 13)
+ (4, 15)
+ (14, 16)
+ (17, 18)
+ (8, 15)
+ (10, 12)
+ (0, 11)
+ (6, 17)
+ (3, 9)
+ (5, 6)
+ (4, 8)
+ (14, 18)
+ (4, 17)
+ (1, 2)
+ (0, 4)
+ (8, 17)
+ (10, 14)
+ (6, 10)
+ (3, 2)
+ (6, 19)
+ (4, 1)
+ (7, 18)
+ (14, 2)
+ (3, 11)
+ (4, 10)
+ (4, 19)
+ (8, 1)
+ (19, 1)
+ (17, 13)
+ (0, 6)
+ (8, 19)
+ (10, 16)
+ (9, 18)
+ (0, 15)
+ (16, 2)
+ (1, 13)
+ (2, 12)
+ (6, 12)
+ (3, 4)
+ (4, 12)
+ (8, 12)
+ (19, 12)
+ (9, 11)
+ (0, 8)
+ (10, 18)
+ (0, 17)
+ (11, 17)
+ (15, 17)
+ (7, 13)
+ (18, 13)
+ (4, 5)
+ (4, 14)
+ (8, 14)
+ (10, 11)
+ (9, 13)
+ (0, 10)
+ (0, 19)
+ (11, 19)
+ (15, 1)
+ (6, 7)
+ (15, 19)
+ (16, 18)
+ (7, 15)
+ (4, 7)
+ (4, 16)
+ (17, 1)
+ (5, 8)
+ (0, 3)
+ (5, 17)
+ (8, 16)
+ (10, 13)
+ (9, 15)
+ (11, 12)
+ (15, 12)
+ (6, 9)
+ (7, 8)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",18,TRUE,FALSE,TRUE,11,19,TRUE,FALSE,TRUE,4
+96,"You are given an undirected graph with 16 vertices labeled 0 through 15.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (4, 10)
+ (15, 11)
+ (6, 11)
+ (6, 14)
+ (15, 10)
+ (8, 13)
+ (2, 6)
+ (7, 12)
+ (2, 15)
+ (2, 5)
+ (1, 9)
+ (9, 4)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",3,FALSE,TRUE,FALSE,2,2,FALSE,TRUE,FALSE,2
+97,"You are given an undirected graph with 5 vertices labeled 0 through 4.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ 
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",0,FALSE,TRUE,FALSE,1,0,FALSE,TRUE,FALSE,1
+98,"You are given an undirected graph with 19 vertices labeled 0 through 18.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (12, 16)
+ (0, 8)
+ (10, 12)
+ (13, 11)
+ (13, 17)
+ (7, 16)
+ (17, 2)
+ (17, 5)
+ (5, 12)
+ (13, 4)
+ (8, 17)
+ (0, 13)
+ (1, 17)
+ (6, 7)
+ (8, 4)
+ (10, 7)
+ (8, 13)
+ (13, 9)
+ (2, 6)
+ (1, 10)
+ (2, 15)
+ (15, 12)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",6,FALSE,FALSE,FALSE,3,4,FALSE,TRUE,FALSE,2
+99,"You are given an undirected graph with 20 vertices labeled 0 through 19.
+ 
+ The edges of the graph are listed below. Each edge is represented as a pair of vertex labels (u, v), meaning there is an edge between vertex u and vertex v.
+ 
+ Edge List:
+ (4, 9)
+ (5, 10)
+ (8, 9)
+ (0, 5)
+ (5, 19)
+ (8, 18)
+ (9, 17)
+ (0, 14)
+ (2, 11)
+ (1, 15)
+ (6, 11)
+ (18, 19)
+ (12, 18)
+ (14, 15)
+ (8, 11)
+ (19, 11)
+ (9, 10)
+ (11, 7)
+ (2, 4)
+ (9, 19)
+ (0, 16)
+ (1, 8)
+ (15, 7)
+ (18, 3)
+ (1, 17)
+ (13, 19)
+ (6, 13)
+ (15, 16)
+ (7, 3)
+ (17, 7)
+ (9, 3)
+ (14, 17)
+ (5, 14)
+ (9, 12)
+ (0, 9)
+ (13, 3)
+ (1, 10)
+ (1, 19)
+ (15, 18)
+ (16, 17)
+ (12, 13)
+ (5, 7)
+ (0, 2)
+ (14, 19)
+ (4, 18)
+ (9, 14)
+ (10, 15)
+ (13, 14)
+ (15, 11)
+ (18, 7)
+ (16, 19)
+ (14, 3)
+ (12, 15)
+ (5, 9)
+ (4, 11)
+ (17, 11)
+ (5, 18)
+ (1, 5)
+ (13, 7)
+ (16, 3)
+ (10, 17)
+ (1, 14)
+ (13, 16)
+ (2, 13)
+ (12, 17)
+ (4, 13)
+ (2, 6)
+ (10, 19)
+ (1, 16)
+ (0, 18)
+ (2, 15)
+ (13, 18)
+ (18, 11)
+ (4, 6)
+ (12, 19)
+ (14, 16)
+ (4, 15)
+ (10, 3)
+ (17, 18)
+ (8, 15)
+ (10, 12)
+ (1, 9)
+ (13, 11)
+ (16, 7)
+ (1, 18)
+ (2, 17)
+ (6, 8)
+ (12, 3)
+ (6, 17)
+ (5, 6)
+ (14, 18)
+ (4, 17)
+ (1, 2)
+ (0, 4)
+ (8, 17)
+ (10, 14)
+ (1, 11)
+ (0, 13)
+ (2, 19)
+ (6, 10)
+ (14, 11)
+ (4, 10)
+ (4, 19)
+ (8, 10)
+ (1, 4)
+ (0, 6)
+ (8, 19)
+ (1, 13)
+ (0, 15)
+ (2, 12)
+ (9, 18)
+ (6, 3)
+ (6, 12)
+ (4, 3)
+ (12, 16)
+ (4, 12)
+ (8, 3)
+ (19, 3)
+ (8, 12)
+ (1, 6)
+ (0, 8)
+ (2, 5)
+ (10, 18)
+ (0, 17)
+ (15, 17)
+ (6, 14)
+ (4, 5)
+ (4, 14)
+ (0, 1)
+ (5, 15)
+ (8, 14)
+ (10, 11)
+ (9, 13)
+ (0, 10)
+ (2, 7)
+ (0, 19)
+ (6, 7)
+ (15, 19)
+ (6, 16)
+ (16, 18)
+ (12, 11)
+ (4, 7)
+ (4, 16)
+ (5, 8)
+ (8, 7)
+ (11, 3)
+ (5, 17)
+ (8, 16)
+ (10, 13)
+ (9, 15)
+ (0, 12)
+ (2, 9)
+ (17, 19)
+ (15, 3)
+ (13, 15)
+ (6, 9)
+ (16, 11)
+ 
+ Answer the following questions about the graph. Do not write code to compute any answers.
+ 
+ 1. What is the maximum degree of any vertex in this graph? Output a single integer.
+ 2. Is the graph connected? Output True or False.
+ 3. Is the graph bipartite? Output True or False.
+ 4. Does the graph contain a Hamiltonian cycle? Output True or False.
+ 5. What is the size of the largest complete subgraph (clique) in this graph? Output a single integer.
+ 
+ Provide your answers in order, one per line, with no extra text.",18,TRUE,FALSE,TRUE,11,19,TRUE,FALSE,TRUE,4
