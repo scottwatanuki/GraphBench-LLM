@@ -70,10 +70,10 @@ jupyter notebook GraphBenchmark_Analysis.ipynb
 If you use this benchmark in your research, please cite:
 
 ```
-@misc{GraphBenchLLM2023,
+@misc{GraphBenchLLM2025,
   author = {Your Name},
   title = {GraphBench-LLM: Benchmarking Large Language Models on Graph Theory Problems},
-  year = {2023},
+  year = {2025},
   publisher = {GitHub},
   url = {https://github.com/yourusername/GraphBench-LLM}
 }
