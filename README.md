@@ -43,11 +43,11 @@ The analysis examines:
 ## Visualizations
 
 The repository includes several visualizations:
-- [graph_size.png](graph_size.png): Model performance by graph size
-- [graph_density.png](graph_density.png): Model performance by graph density
-- [max_degree_errors.png](max_degree_errors.png): Error distribution for maximum degree task
-- [max_clique_errors.png](max_clique_errors.png): Error distribution for maximum clique task
-- [model_performance.png](model_performance.png): Overall model performance comparison
+- [graph_size.png](results/graph_size.png): Model performance by graph size
+- [graph_density.png](results/graph_density.png): Model performance by graph density
+- [max_degree_errors.png](results/max_degree_errors.png): Error distribution for maximum degree task
+- [max_clique_errors.png](results/max_clique_errors.png): Error distribution for maximum clique task
+- [model_performance.png](results/model_performance.png): Overall model performance comparison
 
 ## Usage
 
