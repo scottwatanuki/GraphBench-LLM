@@ -71,10 +71,10 @@ If you use this benchmark in your research, please cite:
 
 ```
 @misc{GraphBenchLLM2025,
-  author = {Your Name},
+  author = {Alexander Divoux, Jae Young Beck, Scott Watanuki},
   title = {GraphBench-LLM: Benchmarking Large Language Models on Graph Theory Problems},
   year = {2025},
   publisher = {GitHub},
-  url = {https://github.com/yourusername/GraphBench-LLM}
+  url = {https://github.com/scottwatanuki/GraphBench-LLM}
 }
 ```
